@@ -1,8 +1,14 @@
 #include <iostream>
+#include<vector>
 using namespace std;
 
 int main()
 {
-   std:: cout<<"hello world";
+   vector<string> msg {"Hello", "C++","World","from","VS code","and the C++ extencion!"};
+   for( const string& word : msg)
+   {
+       cout << word << " ";
+   }
+   cout <<endl;
    
 }
